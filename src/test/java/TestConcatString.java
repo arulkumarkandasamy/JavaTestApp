@@ -9,7 +9,7 @@ public class TestConcatString {
 	public void testConcat() {
 		ConcatString myConcat = new ConcatString();
 	        String result = myConcat.concat("Hello", "World");
-	        assertEquals("HelloWorldNo", result);
+	        assertEquals("HelloWorld", result);
 	    }
 	
 
